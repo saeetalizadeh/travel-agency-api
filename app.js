@@ -20,7 +20,7 @@ const startServer = (port) => {
     console.log(`Server running on port ${port}`);
     swaggerDocument.servers = [
       {
-        url: `https://travel-agency-api-six.vercel.app
+        url: `https://travel-agency-api-inky.vercel.app/
 `,
         description: "Local server",
       },
